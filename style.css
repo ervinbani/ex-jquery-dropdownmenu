@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+
+}
+header {
+    width: 100vw;
+    height: 70px;
+    background: black;
+    position:fixed;
+}
+header .container {
+    width: 80%;
+    height: 100%;
+    background: blue;
+    margin: auto;
+}
+header .container .header-left{
+  width: 29%;
+  height: 100%;
+  line-height: 70px;
+  margin-left: 0;
+  display: inline-block;
+}
+header .container .header-left>img{
+  height: 90%;
+}
+header .container .header-right{
+  width: 70%;
+  height: 100%;
+  line-height: 70px;
+  float: right;
+  background: red;
+  display: inline-block;
+}
+.menu{
+  position: relative;
+  float:left;
+  width: 250px;
+  height: 100%;
+  border: 1px solid blue;
+  background: grey;
+  text-align: center;
+  cursor: pointer;
+}
+.menu:hover{
+  background: lightgray;
+  color:black;
+}
+.container .header-right .menu>a{
+  text-decoration: none;
+  color: white;
+}
+.menu .item-container{
+  display: none;
+
+  padding:0 20px;
+  top:71px;
+  left:0;
+  width: 100%;
+  height: 300px;
+  background: orange;
+}
+.menu .item-container .item{
+  position:relative;
+
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid white;
+
+}
+ .item-container .item>a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.item-container .item:hover{
+  background: lightgray;
+}
+.item-container .item:hover>a{
+  color:black;
+
+}
+/*MENU DEL SECONDA FINESTRA*/
+ .item .itembis-container{
+
+   position: absolute;
+   left:300px;
+   top:80px;
+
+   width:100%;
+   height:150px;
+   background: yellow;
+   border:1px solid black;
+
+ }
+  .itembis{
+
+   width: 100%;
+   height: 50px;
+   border-bottom: 1px solid white;
+
+ }
