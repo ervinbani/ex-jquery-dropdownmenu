@@ -10,21 +10,19 @@ $(document).ready(function() {
   x.mouseleave(function(){
     $(this).children('.item-container').hide(500);
   });
+  var y=$('.itembis-continer');
+  y.mouseenter(function(){
+    $(this).children('.itembis').show(500);
+      });
+      y.mouseleave(function(){
+        $(this).children('.item-container').hide(500);
+      });
 
 
 
 
 
-    /*itemsContainer.mouseleave(function() {
-        $(this).children('.item-container').hide();
-    });
 
-  $(".item").mouseleave(function(){
-    $(this).children(".menu").hide();
-  });
 
-  /*$(".items").click(function(){
-    $(this).children(".itembis").toggle(1000);
-  });*/
 
 });
