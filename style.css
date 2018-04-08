@@ -86,7 +86,7 @@ header .container .header-right{
  .item .itembis-container{
 
    position: absolute;
-   left:300px;
+   left:100%;
    top:80px;
 
    width:100%;
